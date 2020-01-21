@@ -1,0 +1,63 @@
+body {
+    background-color: brown;
+    justify-content: center;
+    align-items: center;
+}
+
+.status {
+    display: flex;
+    font-family: sans-serif;
+    font-size: 150px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.display {
+    display:flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 200px;
+    border: 3px solid;
+    border-color: black;
+    width: 700;
+    margin: auto;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+/* adds diff color for break phase */
+.breakcolor {
+    background-color: lightsalmon;
+}
+.controls {
+    display:flex;
+    justify-content: center;
+}
+.phase {
+    display:flex;
+    justify-content: center;
+}
+button {
+    font-size: 40px ;
+    border-radius: 5px;
+}
+.start {
+    background-color: green;
+    border-color: black;
+}
+.stop {
+    background-color: rgb(194, 34, 34);
+    border-color: black;
+}
+.reset {
+    background-color: beige;
+    border-color: black;
+}
+.work {
+    background-color: purple;
+    border-color: black;
+}
+.break {
+        background-color: orange;
+        border-color: black;
+}
+
