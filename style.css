@@ -39,6 +39,7 @@ body {
 button {
     font-size: 40px ;
     border-radius: 5px;
+    cursor: pointer;
 }
 .start {
     background-color: green;
